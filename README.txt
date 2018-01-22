@@ -6,6 +6,5 @@ The Python libraries used are numpy, re, random, copy, matplotlib, tkinter, xlsx
 PIL and time. Make sure these libraries are installed on the machine, if the code is to be run on Python. 
 The version of Python used is 3.6.
 
-The ‘experiments’ folder contains ‘.hrs’ files for each experiment. They are numbered in the same order 
-as the experiments completed in this project. They can be loaded into either simulator.
-Files have been submitted to the Programmes Office on two USBs and on moodle.
+The ‘experiments’ folder contains ‘.hrs’ files for various experiments that were run during the experiment.
+They can be loaded into either simulator.
