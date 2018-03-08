@@ -924,7 +924,7 @@ class App:
         self.runCheck.grid(column=2, row=3,sticky='W')
         
         # Icon at bottom left of simulator        
-        anImage = ImageTk.PhotoImage(file="Harris-small.png")
+        anImage = ImageTk.PhotoImage(file="Harris-fully-conneted-small.png")
         iconLabel = tk.Label(self.master,background="#FBF9ED")
         iconLabel.config(image=anImage)
         iconLabel.image = anImage
@@ -2201,7 +2201,7 @@ class Plotwindow():
 class SplashScreen( object ):
    def __init__( self, tkRoot, imageFilename, minSplashTime=0 ):
       self._root              = tkRoot
-      self._image             = tk.PhotoImage( file='Harris-splash.png' )
+      self._image             = tk.PhotoImage( file='Harris-fully-conneted-splash.png' )
       self._splash            = None
       self._minSplashTime     = time.time() + minSplashTime
       
@@ -2246,6 +2246,6 @@ if __name__ == "__main__":
     
     with SplashScreen( root, 'splashImage.jpg', 1.0):
         root.title("HEMFULL SIMULATOR ver 1.0")
-        root.tk.call('wm', 'iconbitmap', root._w, 'harris_icon_highres.ico')
+        root.tk.call('wm', 'iconbitmap', root._w, 'HarrisFC-icon.ico')
         app = App(root)
     root.mainloop()
