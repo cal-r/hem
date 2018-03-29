@@ -2245,7 +2245,7 @@ if __name__ == "__main__":
     root = tk.Tk()
     
     with SplashScreen( root, 'splashImage.jpg', 1.0):
-        root.title("HEMFULL SIMULATOR ver 1.0")
+        root.title("HEMIB SIMULATOR ver 1.0")
         root.tk.call('wm', 'iconbitmap', root._w, 'harrisib_icon.ico')
         app = App(root)
     root.mainloop()
